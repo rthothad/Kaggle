@@ -1,4 +1,5 @@
 # Kaggle
-NLP - Toxic Comments Classification (RNN-LSTM/GRU)
-      StackOverTagPredictor, QuoraQuestionPairSimilarity
-Recommender Systems - SantanderProductRecommendation (Matrix Factorization)
+__NLP__ - Toxic Comments Classification (__RNN-LSTM/GRU__)
+      StackOverTagPredictor, QuoraQuestionPairSimilarity<br>
+      
+__Recommender Systems__ - SantanderProductRecommendation (__Matrix Factorization__)
