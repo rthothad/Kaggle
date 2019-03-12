@@ -10,7 +10,7 @@
 
     3.  **Approach:**
 
-        1.  Used **Matplotlib** and **Searborn** to visualize distribution of
+        1.  Used **Matplotlib** and **Seaborn** to visualize distribution of
             target classes, correlation of categorical variables using
             **confusion matrix** and frequently used words using **WordCloud**.
 
@@ -35,16 +35,24 @@
 
     3.  **Approach**:
 
-        1.  Used Matplotlib and Searborn to visualize distribution of tags, tags
+        1.  Used Matplotlib and Seaborn to visualize distribution of tags, tags
             per question and most frequent tags.
 
-        2.  Preprocessed the data to remove special characters, HTML tags and
-            **SnowballStemmer** to stem the words. Saved the cleaned data to
-            **SQLite** DB.
+        2.  Preprocessed the data using **NLTK** to remove stopwords, special
+            characters, HTML tags and **SnowballStemmer** to stem the words.
+            Saved the cleaned data to **SQLite** DB.
 
         3.  Vectorized the words using **TF-IDF** and used **LogisticRegression
             with One Vs Rest Classifier** and **SGDClassifier with hinge loss**.
             Used GridSearch to tune hyperparameters.
+
+3.  **Quora Question Pair Similarity** – Identify whether a given pair of
+    questions is similar (binary classification).
+
+    1.  **Metrics:** LogLoss
+
+    2.  **Models used:** Random Model, Logistic Regression, Linear SVM and
+        XGBoost.
 
 **Recommender Systems**
 
@@ -52,7 +60,7 @@
     Santander can cross sell products to their existing customers (multi-class
     classification).
 
-    1.  **Metrics**: Logloss
+    1.  **Metrics**: LogLoss
 
     2.  **Models used**: XGBoost, Matrix Factorization Techniques – SVD
 
