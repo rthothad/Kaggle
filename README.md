@@ -45,3 +45,30 @@
         3.  Vectorized the words using **TF-IDF** and used **LogisticRegression
             with One Vs Rest Classifier** and **SGDClassifier with hinge loss**.
             Used GridSearch to tune hyperparameters.
+
+**Recommender Systems**
+
+1.  **Santander Product Recommendation** – Build a recommendation system so
+    Santander can cross sell products to their existing customers (multi-class
+    classification).
+
+    1.  **Metrics**: Logloss
+
+    2.  **Models used**: XGBoost, Matrix Factorization Techniques – SVD
+
+    3.  **Approach**:
+
+        1.  Explained the approach in a
+            [blog](https://medium.com/@ravitee/santander-product-recommendation-ee4122d15072).
+
+        2.  Used Matplotlib and Seaborn to visualize products distribution by
+            various features.
+
+        3.  **Converted the dataset to be used as a multi-class classification
+            problem**.
+
+        4.  Created new feature lags and statistics metrics such as min, max and
+            standard deviations.
+
+        5.  Modeled using **XGBoost** and **Matrix Factorization** techniques
+            such as **SVD.**
