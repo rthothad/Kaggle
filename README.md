@@ -1,7 +1,6 @@
 # Contains projects involving NLP and Recommender Systems
 
 ## NLP Projects
-**NLP Projects**
 
 1.  **Toxic Comments Classification** - Build a multi-headed model that predicts
     probabilities of different types of toxicity such as threats, obscenity,
@@ -57,7 +56,7 @@
     2.  **Models used:** Random Model, Logistic Regression, Linear SVM and
         XGBoost.
 
-**Recommender Systems**
+## Recommender Systems
 
 1.  **Santander Product Recommendation** – Build a recommendation system so
     Santander can cross sell products to their existing customers (multi-class
